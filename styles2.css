@@ -1,0 +1,149 @@
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  
+  color: #26a824;
+  
+ 
+}
+.header img{
+    align-items:center;
+    width:100%;
+}
+
+
+  form {
+    border: 1px solid #b2e1ad;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #156f24;
+    width: 100%; /* Adjust width as needed */
+    color:#ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="contact"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.declare1 {
+    font-size:12px;
+    text-decoration:underline;
+}
+.declare2 {
+    font-size:12px;
+    color:grey;
+}
+
+.center {
+    text-align: center;
+  }
+  
+.button {
+    display: inline-block;
+    background-color: #39ab1c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #1f6210;
+  }
+  
+  .button:active {
+    background-color: #39ab1c;
+    transform: translateY(1px);
+  }
+  
+  .button button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button button span {
+    background-color: inherit;
+    color: inherit;
+  }
+  
+
+.footer {
+  
+  color: #000000;
+  text-align: center;
+  justify-content: bottom;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+  }
+
+
+
+.footer p{
+    color:grey;
+}  
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
